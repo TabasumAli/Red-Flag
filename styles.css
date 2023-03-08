@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*==============================================================================  */
+/* Header section */
+/*==============================================================================  */
+
+.top-section {
+    /* min-height: 700px; */
+    background: linear-gradient(-36deg, white 8%,brown 0%);
+    background-color: brown;
+    padding: 30px 20px;
+    color: white;
+
+}
+.top-sec-container{
+     margin: 1rem auto 8rem; 
+ 
+
+}
+
+.logo-img{
+    width: 7%;
+    margin-bottom: 12px;
+}
+
+
+/*==============================================================================  */
+/* <Main section containing all logos */
+/*==============================================================================  */
+
+
+
+.row{
+    padding: 1rem 0;
+}
+
+.title-area{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    column-gap: 0.5rem;
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
+
+.logo-1{
+    width: 60%;
+}
+
+.triangle{
+    width: 30px;
+}
+
+.clb{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+img + p{
+    color: brown;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.col p + p{
+    color: black;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+/*==============================================================================  */
+/* Footer section */
+/*==============================================================================  */
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 300px;
+    background: linear-gradient(-36deg, white 6%,brown 0%);
+    background-color: brown;
+    margin-top: 3rem;
+    color: white;
+    border-bottom: 15px solid black;
+
+
+}
+.ft-c{
+    margin: 0 auto;
+}
+.ft-c h2{
+    word-spacing: 5px;
+    font-size: 36px;
+}
